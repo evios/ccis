@@ -1,0 +1,12 @@
+[%%SIPUserID%%]
+type=friend
+username=%%SIPUserID%%
+;callerid=%%FullUserName%% <%%SIPUserID%%>
+secret=%%SIPPass%%
+nat=yes
+call-limit=1
+;host=%%IP%%
+host=dynamic
+qualify=yes
+context=users
+

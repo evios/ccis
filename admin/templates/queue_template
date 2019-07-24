@@ -1,0 +1,7 @@
+[queue_%%STORENAME%%]
+monitor-format=wav
+monitor-type=MixMonitor
+strategy = leastrecent
+context= incoming
+
+

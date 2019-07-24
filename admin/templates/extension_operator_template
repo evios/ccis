@@ -1,0 +1,3 @@
+exten => %%STORENAME%%%%OPERATOR%%,1,Queue(queue_%%STORENAME%%_%%OPERATOR%%,twh)
+exten => %%OPERATOR%%,hint,SIP/%%OPERATOR%%
+

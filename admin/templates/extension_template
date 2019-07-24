@@ -1,0 +1,4 @@
+exten => %%PSTNNUMBER%%,1(start),Answer
+;exten => %%PSTNNUMBER%%,n,BackGround(/etc/osis/asterisk/audio/welcome,m)
+exten => %%PSTNNUMBER%%,n,Queue(queue_%%STORENAME%%,twh)
+exten => %%PSTNNUMBER%%,n,Hangup

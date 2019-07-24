@@ -1,0 +1,7 @@
+exten => elampa503,1,Queue(queue_elampa_503,twh)
+exten => 503,hint,SIP/503
+
+exten => 4997879,1(start),Answer
+;exten => 4997879,n,BackGround(/etc/osis/asterisk/audio/welcome,m)
+exten => 4997879,n,Queue(queue_elampa,twh)
+exten => 4997879,n,Hangup

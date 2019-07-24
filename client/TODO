@@ -1,0 +1,12 @@
+<?
+/* ToDo
+ Сделать не connect а COMPLETE%
+так как при коннекте агент мог не ответить
+
+COMPLETECALLER(holdtime|calltime|origposition)
+В скрипте берется 0 - длит звонка
+1- длит ожид
+Проверить
+
+*/ 
+?>

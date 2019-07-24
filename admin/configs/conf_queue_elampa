@@ -1,0 +1,13 @@
+[queue_elampa]
+monitor-format=wav
+monitor-type=MixMonitor
+strategy = leastrecent
+context= incoming
+
+
+[queue_elampa_503]
+monitor-format=wav
+monitor-type=MixMonitor
+strategy = leastrecent
+context= incoming
+

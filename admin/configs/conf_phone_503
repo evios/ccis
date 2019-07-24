@@ -1,0 +1,12 @@
+[503]
+type=friend
+username=503
+;callerid=Evgeniy Iosifov <503>
+secret=503
+nat=yes
+call-limit=1
+;host=%%IP%%
+host=dynamic
+qualify=yes
+context=users
+
